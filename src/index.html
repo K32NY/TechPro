@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PowerLink Network</title>
+  <script src="https://cdn.tailwindcss.com/"></script>
+  <style>
+    body {
+      overflow-x: hidden; /* Désactive le défilement horizontal */
+    }
+  </style>
+</head>
+
+<body class=" min-h-screen">
+  <header class="bg-white px-4 lg:px-6 h-16 flex items-center justify-between">
+    <!-- Logo -->
+    <a href="#" class="flex items-center text-black hover:text-gray-900">
+      <svg id="logo-70" width="78" height="30" viewBox="0 0 78 30" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18.5147 0C15.4686 0 12.5473 1.21005 10.3934 3.36396L3.36396 10.3934C1.21005 12.5473 0 15.4686 0 18.5147C0 24.8579 5.14214 30 11.4853 30C14.5314 30 17.4527 28.7899 19.6066 26.636L24.4689 21.7737C24.469 21.7738 24.4689 21.7736 24.4689 21.7737L38.636 7.6066C39.6647 6.57791 41.0599 6 42.5147 6C44.9503 6 47.0152 7.58741 47.7311 9.78407L52.2022 5.31296C50.1625 2.11834 46.586 0 42.5147 0C39.4686 0 36.5473 1.21005 34.3934 3.36396L15.364 22.3934C14.3353 23.4221 12.9401 24 11.4853 24C8.45584 24 6 21.5442 6 18.5147C6 17.0599 6.57791 15.6647 7.6066 14.636L14.636 7.6066C15.6647 6.57791 17.0599 6 18.5147 6C20.9504 6 23.0152 7.58748 23.7311 9.78421L28.2023 5.31307C26.1626 2.1184 22.5861 0 18.5147 0Z" fill="black"></path>
+        <path d="M39.364 22.3934C38.3353 23.4221 36.9401 24 35.4853 24C33.05 24 30.9853 22.413 30.2692 20.2167L25.7982 24.6877C27.838 27.8819 31.4143 30 35.4853 30C38.5314 30 41.4527 28.7899 43.6066 26.636L62.636 7.6066C63.6647 6.57791 65.0599 6 66.5147 6C69.5442 6 72 8.45584 72 11.4853C72 12.9401 71.4221 14.3353 70.3934 15.364L63.364 22.3934C62.3353 23.4221 60.9401 24 59.4853 24C57.0498 24 54.985 22.4127 54.269 20.2162L49.798 24.6873C51.8377 27.8818 55.4141 30 59.4853 30C62.5314 30 65.4527 28.7899 67.6066 26.636L74.636 19.6066C76.7899 17.4527 78 14.5314 78 11.4853C78 5.14214 72.8579 0 66.5147 0C63.4686 0 60.5473 1.21005 58.3934 3.36396L39.364 22.3934Z" fill="black"></path>
+      </svg>
+      <span class="ml-2 text-2xl font-bold">TechPro Solutions</span>
+    </a>
+  
+    <!-- Navigation Links -->
+    <nav class="flex items-center space-x-4">
+      <!-- Search Bar -->
+      <div class="relative">
+        <input
+          type="text"
+          placeholder="Rechercher..."
+          class="w-full border rounded-lg py-2 px-4 pl-10 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-700"
+        />
+        <svg class="absolute top-1/2 left-3 transform -translate-y-1/2 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" />
+        </svg>
+      </div>
+      <!-- Contact Link -->
+      <a href="./contact.html" class="text-lg font-medium text-gray-700 hover:text-gray-600">Nous contacter</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+<!-- Hero Section -->
+<section class="h-screen flex flex-col justify-center items-center bg-cover bg-center pt-16" style="background-image: url('https://img.freepik.com/free-vector/minimalist-white-background_23-2148810887.jpg?t=st=1733664192~exp=1733667792~hmac=2823ec6120270b640f5a5205ee85632e2f27604df8ed9bd271827c57923c2d79&w=1380');">
+  <div class="bg-opacity-70 p-8 rounded-lg text-center">
+    <h1 class="text-5xl lg:text-7xl font-extrabold text-gray-900">
+      Solutions informatiques innovantes
+    </h1>
+    <p class="text-xl lg:text-2xl text-gray-700 mt-4">
+      TechPro Solutions vous accompagne dans votre transformation numérique avec une expertise de pointe.
+    </p>
+    <div class="flex justify-center space-x-6 mt-8">
+      <a href="./pricing.html" class="px-8 py-4 bg-black text-white text-lg font-semibold rounded-xl shadow-md hover:bg-gray-900">
+          Faire un devis gratuitement
+        </a>
+      <a href="#learn-more" class="px-8 py-4 bg-gray-200 text-gray-700 text-lg font-semibold rounded-xl shadow-md hover:bg-gray-300">
+        En savoir plus
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="py-20 bg-gray-100">
+  <div class="container mx-auto px-6">
+    <h2 class="text-4xl font-extrabold text-center text-black mb-12">Nos services</h2>
+    <div class="grid lg:grid-cols-3 gap-12">
+      <!-- Card 1 -->
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl hover:-translate-y-2 transition-transform duration-300">
+        <div class="flex items-center justify-center p-4 w-16 h-16 mx-auto mb-6">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check">
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
+        <h3 class="text-2xl font-semibold mb-4 text-center">Infrastructure Cloud</h3>
+        <p class="text-gray-600 text-center">Des solutions conçues pour répondre aux besoins uniques de votre entreprise.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl hover:-translate-y-2 transition-transform duration-300">
+        <div class="flex items-center justify-center p-4 w-16 h-16 mx-auto mb-6">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-lock">
+            <path d="M15.686 15A14.5 14.5 0 0 1 12 22a14.5 14.5 0 0 1 0-20 10 10 0 1 0 9.542 13" />
+            <path d="M2 12h8.5" />
+            <path d="M20 6V4a2 2 0 1 0-4 0v2" />
+            <rect width="8" height="5" x="14" y="6" rx="1" />
+          </svg>
+        </div>
+        <h3 class="text-2xl font-semibold mb-4 text-center">Développement logiciel</h3>
+        <p class="text-gray-600 text-center">Une veille technologique constante pour des solutions à la pointe.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl hover:-translate-y-2 transition-transform duration-300">
+        <div class="flex items-center justify-center p-4 w-16 h-16 mx-auto mb-6">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud-upload">
+            <path d="M12 13v8" />
+            <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242" />
+            <path d="m8 17 4-4 4 4" />
+          </svg>
+        </div>
+        <h3 class="text-2xl font-semibold mb-4 text-center">Cybersécurité</h3>
+        <p class="text-gray-600 text-center">Un support personnalisé à chaque étape de votre projet.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="w-full py-12 md:py-24 lg:py-32">
+  <div class="container mx-auto px-4 md:px-6">
+    <div class="grid items-center gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
+      <!-- Texte à gauche -->
+      <div class="space-y-4">
+        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">À propos de TechPro Solutions</h2>
+        <p class="text-gray-500 dark:text-gray-400 md:text-xl">
+          Depuis 2010, TechPro Solutions est à l'avant-garde de l'innovation technologique. Notre équipe d'experts passionnés s'engage à fournir des solutions informatiques de pointe pour propulser votre entreprise vers le succès.
+        </p>
+      </div>
+      <!-- Image à droite -->
+      <div class="flex justify-end">
+        <img 
+          alt="Team at work" 
+          class="aspect-video overflow-hidden rounded-xl object-cover object-center" 
+          height="310" 
+          width="550" 
+          src="../20170731092357-business-businessteam-working-training.jpeg"
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+
+<!-- Footer -->
+<footer class="py-6 bg-gray-900 text-gray-400 text-center">
+  <p>&copy; 2024 TechPro Solutions. Tous droits réservés.</p>
+</footer>
+</body>
